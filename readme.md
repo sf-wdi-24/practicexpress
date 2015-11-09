@@ -18,9 +18,11 @@ You must do this without any copy/pasta at least 5 times.
 1. Make a route which returns JSON data.
 1. Use your JSON route from your server side rendered HTML page.
 
-**Getting Started**
+## Getting Started
+
 * Fork this repo, and clone it into your `develop` folder on your local machine.
 
-**Submission**
+## Submission
+
 * As you make code changes, frequently commit and push to GitHub.
 * Once you've finished the assignment and pushed your work to GitHub, make a pull request from your fork to the original repo.
