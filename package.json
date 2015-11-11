@@ -1,0 +1,23 @@
+{
+  "name": "practicexpress",
+  "version": "1.0.0",
+  "description": "# Homework",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/murcielago17/practicexpress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/murcielago17/practicexpress/issues"
+  },
+  "homepage": "https://github.com/murcielago17/practicexpress#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "hbs": "^4.0.0"
+  }
+}
