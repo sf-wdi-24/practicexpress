@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" href="style.css">
+		<title>Travel</title>
+	</head>
+	<body>
+		<h1>Beautiful Destination</h1>
+		<div class="container">
+			{{#each destination}}
+			<div class="col-sm-6 col-sm-offset-3">
+				<div class="row">
+					<div class="col-md-5">
+						<img src="{{pic}}" class="img-responsive">
+					</div>
+					<div class="col-md-7">
+						<h3>{{place}}</h3>
+					</div>
+				</div>
+			</div>
+			{{/each}}
+		</div>
+	</body>
+</html>

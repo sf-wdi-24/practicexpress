@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<title>Trung's Music</title>
+</head>
+<body>
+	<div class="title">
+		<h1>{{pageTitle}}<h1/>
+	</div>
+	<div class="song">
+		{{#each music}}
+			<h3>{{title}} - {{artist}}</h3>
+		{{/each}}
+	</div>
+</body>
+</html>

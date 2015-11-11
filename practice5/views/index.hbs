@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" href="style.css">
+		<title>WDI 24</title>
+	</head>
+	<body>
+		<body>
+		<div class="container">
+			<div class="col-sm-8 col-sm-offset-2">
+				<div class="row">
+					<div class="col-md-12" id="header">
+						<h1>{{school}} - {{city}}</h1>
+						<h2>{{course}}</h2>
+						<h3>Course Id: {{course_id}}</h3>
+						<h3>Classroom: {{classroom}}</h3>
+					</div>
+				</div>
+				<hr>
+				{{#each students}}
+				<div class="row">
+					<div class="col-md-4">
+						<img src="http://images.clipartpanda.com/girl-student-thinking-clipart-student-using-laptop-hi.png" class="img-responsive">
+					</div>
+					<div class="col-md-8">
+						<h3>{{first_name}} {{last_name}}</h3>
+						<h3>Github Username: <i>{{github_username}}</i></h3>
+					</div>
+				</div>
+				<hr>
+				{{/each}}
+			</div>
+		</div>
+	
+		<!-- jquery -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+		<!-- bootstrap js -->
+		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<!-- handlebars -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.3/handlebars.min.js"></script>
+		<!-- custom script -->
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
